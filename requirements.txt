@@ -1,0 +1,17 @@
+# CROWN-base inference. Versions are unpinned; the paper stack used two conda
+# environments (see environment.yml). Install both stacks, or one environment
+# that can import every package below.
+#
+# Segmentation + root completion (conda env 3dpoint in the paper):
+torch
+numpy
+scipy
+scikit-learn
+trimesh
+open3d
+pymeshlab
+loguru
+tqdm
+# SDF backbone (conda env nnunetv2 in the paper):
+nnunetv2
+scikit-image

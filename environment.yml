@@ -1,0 +1,20 @@
+# Paper inference uses two environments. Create either, or both and point
+# CROWN_ENV_3D / CROWN_ENV_NN at them. See README.md.
+name: crown-infer-3d
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - scikit-learn
+  - pip
+  - pip:
+      - torch
+      - trimesh
+      - open3d
+      - pymeshlab
+      - loguru
+      - tqdm
+      - nnunetv2
+      - scikit-image
