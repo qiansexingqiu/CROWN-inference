@@ -55,12 +55,9 @@ folder. Per-part hashes and file ids are also written in
 [PARTS.md](https://drive.google.com/file/d/1mOKrKAQ1fIcpQIXPlzxYjSPJA4V9oLuS/view).
 Experiment notes are in `WEIGHTS.md` in that same folder.
 
-Sharing on this folder is still closed. These links name the folder and the
-notes; they are not an anonymous download. The owner still has to open access
-by hand. Until that happens, the files are not publicly downloadable.
-
-After access is granted, download every part and join them in alphabetical
-order (`partaa` through `partae`). Do not skip a file.
+The folder is shared as "Anyone with the link" (Viewer). The parts and notes
+at the links above can be downloaded now. Download every part and join them in
+alphabetical order (`partaa` through `partae`). Do not skip a file.
 
 ```bash
 cat CROWN-base-weights.tar.gz.part* > CROWN-base-weights.tar.gz
@@ -169,7 +166,7 @@ CROWN-base 权重不在 git 里。Drive 文件夹 [CROWN-opensource](https://dri
 cat CROWN-base-weights.tar.gz.part* > CROWN-base-weights.tar.gz
 ```
 
-完整包为 399820895 字节，sha256 为 `7fa8032b0e600ab04d0e381b4b37e50eab05d090bfc47f49b9e47f4f63eec021`。分卷校验见 [PARTS.md](https://drive.google.com/file/d/1mOKrKAQ1fIcpQIXPlzxYjSPJA4V9oLuS/view)。该文件夹的共享尚未打开，上述链接目前不是匿名下载地址，需要所有者手动开放后才能下载。
+完整包为 399820895 字节，sha256 为 `7fa8032b0e600ab04d0e381b4b37e50eab05d090bfc47f49b9e47f4f63eec021`。分卷校验见 [PARTS.md](https://drive.google.com/file/d/1mOKrKAQ1fIcpQIXPlzxYjSPJA4V9oLuS/view)。该文件夹已设为「知道链接的任何人」可查看，分卷现在可以下载。
 
 CROWN-pro 及更强变体不在发布包内，需要申请。学术使用免费，商业使用另议。联系 [qiansexingqiutlr123@sjtu.edu.cn](mailto:qiansexingqiutlr123@sjtu.edu.cn)。
 
