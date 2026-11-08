@@ -1,5 +1,5 @@
-# Paper inference uses two environments. Create either, or both and point
-# CROWN_ENV_3D / CROWN_ENV_NN at them. See README.md.
+# This release splits inference across two conda environments. Create either,
+# or both and point CROWN_ENV_3D / CROWN_ENV_NN at them. See README.md.
 name: crown-infer-3d
 channels:
   - conda-forge
