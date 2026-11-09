@@ -197,7 +197,7 @@ Hospital, Shanghai Jiao Tong University School of Medicine.
 networks, the nnU-Net SDF backbone, and DentalModelSegmentation
 (tooth segmentation, RotationNet, and the PointNet++ operators).
 
-We thank PerioAI.
+We thank PerioAI for their open-source contributions to intraoral scan and CBCT segmentation.
 
 ## License
 
