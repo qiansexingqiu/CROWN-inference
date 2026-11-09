@@ -1,8 +1,8 @@
-# CROWN-base inference. Versions are unpinned; the paper stack used two conda
-# environments (see environment.yml). Install both stacks, or one environment
-# that can import every package below.
+# CROWN-base inference. Versions are unpinned. This release splits work across
+# two conda environments (see environment.yml and README.md). Install both
+# stacks, or one environment that can import every package below.
 #
-# Segmentation + root completion (conda env 3dpoint in the paper):
+# Segmentation + root completion (conda env 3dpoint):
 torch
 numpy
 scipy
@@ -12,6 +12,6 @@ open3d
 pymeshlab
 loguru
 tqdm
-# SDF backbone (conda env nnunetv2 in the paper):
+# SDF backbone (conda env nnunetv2):
 nnunetv2
 scikit-image
